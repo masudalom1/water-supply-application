@@ -1,0 +1,102 @@
+.login{
+  height: 100vh;
+  width: 100%;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+form{
+  height: 300px;
+  width: 290px;
+  background-color: white;
+  border-radius: 5px;
+
+}
+
+h2{
+  font-size: 23px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  text-align: center;
+
+}
+
+.user_email{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0px 10px;
+
+}
+.user_email label{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  margin-top: 5px;
+}
+.user_email input{
+  color: white;
+   margin-top: 8px;
+   padding: 8px 4px;
+   border: none;
+   background-color:rgb(32, 37, 37);
+   border-radius: 5px;
+   outline: none;
+
+}
+
+.user_password{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0px 10px;
+
+}
+.user_password label{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  margin-top: 8px;
+}
+.user_password input{
+  color: white;
+   margin-top: 8px;
+   padding: 8px 4px;
+   border: none;
+   background-color:rgb(32, 37, 37);
+   border-radius: 5px;
+   outline: none;
+
+}
+.user_login{
+  display: flex;
+  justify-content: center;
+}
+button{
+  cursor: pointer;
+  margin-top: 20px;
+  padding: 5px 60px;
+  border: none;
+  border-radius: 3px;
+  background-color: blue;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+.register p{
+  font-size: 13px;
+  margin-top: 24px;
+  margin-left: 20px;
+}
+.register Link{
+  text-decoration: none;
+}
+
+.error-message{
+  margin-top: 5px;
+  font-size: 10px;
+  color: red;
+  margin-left: 20px;
+}

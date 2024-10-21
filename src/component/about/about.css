@@ -1,0 +1,112 @@
+/* About Page Styles */
+.about-container {
+    padding: 60px 0;
+    background-color: #f4f4f4; /* Light background for contrast */
+    padding-top: 70px;
+    background-color: #001F3F;
+  }
+
+.about-container p{
+    color: #ddd2d2;
+    padding: 0px 40px;
+}  
+  
+  .about-container h1 {
+    font-size: 2.5rem;
+    color: #1e90ff; /* Primary color for headings */
+    margin-bottom: 20px;
+    text-align: center; /* Centering the main heading */
+  }
+  
+  .mission-vision {
+    margin-bottom: 40px;
+    text-align: center; /* Centering mission and vision */
+    color: wheat;
+  }
+  
+  .mission-vision h2 {
+    font-size: 2rem;
+    color: #333; /* Darker color for subheading */
+    margin-bottom: 10px;
+    color: wheat;
+  }
+  
+  .mission-vision p {
+    font-size: 1.2rem;
+    color: #f8e7e7; /* Softer color for paragraph text */
+  }
+  
+  .values {
+    margin-bottom: 40px;
+  }
+  
+  .values h2 {
+    font-size: 2rem;
+    color: #1e90ff; /* Primary color for values heading */
+    margin-bottom: 20px;
+    text-align: center; /* Centering the values heading */
+  }
+  
+  .values ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .values li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    text-align: center; /* Centering list items */
+    color: #dcf5f5;
+  }
+  
+  .values li strong {
+    color: #408d8d; /* Highlighting keywords in values */
+  }
+  
+  /* Additional Section Styles */
+  .team {
+    margin-bottom: 40px;
+    text-align: center; /* Centering team section */
+  }
+  
+  .team h2 {
+    font-size: 2rem;
+    color: #1e90ff; /* Primary color for team heading */
+    margin-bottom: 20px;
+  }
+  
+  .team p {
+    font-size: 1.2rem;
+    color: #666; /* Softer color for team paragraph text */
+  }
+  
+  .team-members {
+    display: flex;
+    justify-content: center; /* Centering team member cards */
+    flex-wrap: wrap;
+  }
+  
+  .team-member {
+    background-color: #fff; /* White background for member cards */
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200px; /* Fixed width for member cards */
+  }
+  
+  .team-member img {
+    width: 100%; /* Responsive image */
+    border-radius: 50%; /* Circular image */
+  }
+  
+  .team-member h3 {
+    margin: 10px 0;
+    font-size: 1.5rem; /* Font size for member name */
+  }
+  
+  .team-member p {
+    font-size: 1rem;
+    color: #666; /* Softer color for member description */
+  }
+  

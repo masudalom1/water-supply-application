@@ -1,0 +1,42 @@
+.register_container{
+    height: 100vh;
+    width: 100%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first_name ,.last_name,.email,.password{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 7px;
+}
+
+.register_container label{
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.register_container form{
+    padding-bottom: 60px;
+}
+
+.register_container button{
+    margin-left: 10px;
+}
+
+.register_container input{
+    padding: 7px;
+    border: none;
+    background-color: rgb(44, 43, 43);
+    border-radius: 4px;
+}
+
+.err{
+    font-size: 10px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
